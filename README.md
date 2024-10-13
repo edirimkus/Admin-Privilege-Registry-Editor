@@ -23,9 +23,7 @@ This batch script checks for administrative privileges and re-runs itself with e
    echo Set UAC = CreateObject^("Shell.Application"^) : UAC.ShellExecute "cmd.exe", "/k cd ""%~sdp0"" && %~s0 %params%", "", "runas", 1 >> "%temp%\getadmin.vbs"
    "%temp%\getadmin.vbs"
    exit /B
-)
-
-
+   )
    ```
 
 4. **Delete Registry Keys**: Deletes the registry keys for legalnoticecaption and legalnoticetext.
