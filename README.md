@@ -25,6 +25,7 @@ fsutil dirty query %systemdrive% 1>nul 2>nul || (
     exit /B
 )
    ```
+   ```
 
 4. **Delete Registry Keys**: Deletes the registry keys for legalnoticecaption and legalnoticetext.
    ```batch
