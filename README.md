@@ -40,7 +40,7 @@ exit
 
 ## Usage
 
-1. **Run the Script: Execute the script in an elevated Command Prompt session.
+1. **Run the Script**: Execute the script in an elevated Command Prompt session.
    ```batch
 .\admin-privilege-registry-editor.bat
    ```
