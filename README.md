@@ -28,13 +28,13 @@ This batch script checks for administrative privileges and re-runs itself with e
 
 4. **Delete Registry Keys**: Deletes the registry keys for legalnoticecaption and legalnoticetext.
    ```batch
-REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v legalnoticecaption /f
-REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v legalnoticetext /f
+   REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v legalnoticecaption /f
+   REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v legalnoticetext /f
    ```
 
 5. **Exit**: Exits the script.
    ```batch
-exit
+   exit
    ```
 
 
@@ -42,7 +42,7 @@ exit
 
 1. **Run the Script**: Execute the script in an elevated Command Prompt session.
    ```batch
-.\admin-privilege-registry-editor.bat
+   .\admin-privilege-registry-editor.bat
    ```
 
 
